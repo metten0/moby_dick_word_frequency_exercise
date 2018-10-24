@@ -6,3 +6,9 @@ const stopWords = "stop-words.txt";
 let badWordz = fs.readFileSync(stopWords, "utf8");
 //Split badWordz into a string, using the space as a separator, used 900 as an arbitrary limit of words
 badWordz = badWordz.split(" ", 900);
+
+// read Moby Dick text file from current directory
+fs.readFile(file, "utf8", function(err, data) {
+  if (err) throw err;
+  return removeStopWordsFromArray(badWordz, data);
+});
