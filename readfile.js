@@ -27,7 +27,7 @@ function removeStopWordsFromArray(unwantedWordsArray, data) {
   let filtered_words = finalWordsArray.filter(function(word) {
     return !unwantedWordsArray.includes(word.name);
   });
-  console.log(filtered_words);
+  // console.log(filtered_words);
   return filtered_words;
 }
 
