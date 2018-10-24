@@ -27,7 +27,7 @@ function removeStopWordsFromArray(unwantedWordsArray, data) {
   let filtered_words = finalWordsArray.filter(function(word) {
     return !unwantedWordsArray.includes(word.name);
   });
-  // console.log(filtered_words);
+  for (i = 0; i < 100; i++) console.log(filtered_words[i]);
   return filtered_words;
 }
 
@@ -43,8 +43,7 @@ function isString(test) {
 function splitByWords(text) {
   // split string by spaces (including spaces, tabs, and newlines)
   let wordsArray = text.split(/\s+/).map(function(word) {
-    return word.toLowerCase();
-    //new variable with properly split text, dropped to lowercase
+    return word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").toLowerCase(); //new variable with properly split text, dropped to lowercase
   });
   return wordsArray;
 }
