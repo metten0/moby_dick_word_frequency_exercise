@@ -13,6 +13,24 @@ fs.readFile(file, "utf8", function(err, data) {
   return removeStopWordsFromArray(badWordz, data);
 });
 
+function removeStopWordsFromArray(unwantedWordsArray, data) {
+  if (!isArray(unwantedWordsArray) && !isString(data)) {
+    throw new Error(
+      `removeStopWordsFromArray expected array for unwantedWordsArray and string for data, received ${unwantedWordsArray} for unwantedWordsArray and ${data} for data.`
+    );
+  }
+  const wordsArray = splitByWords(data);
+  const wordsMap = createWordMap(wordsArray);
+  const finalWordsArray = sortByCount(wordsMap);
+
+  //filter to remove stop words from sorted Moby Dick text file
+  let filtered_words = finalWordsArray.filter(function(word) {
+    return !unwantedWordsArray.includes(word.name);
+  });
+  console.log(filtered_words);
+  return filtered_words;
+}
+
 function isArray(test) {
   return Array.isArray(test);
 }
@@ -62,3 +80,4 @@ function sortByCount(wordsMap) {
 
   return finalWordsArray;
 }
+module.exports = removeStopWordsFromArray;

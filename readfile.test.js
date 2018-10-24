@@ -20,3 +20,9 @@ test("should throw an error if either parameters are not arrays", () => {
 test("should return an empty array given an empty string and object", () => {
   expect(removeStopWordsFromArray([], "")).toEqual([]);
 });
+
+test("should remove Stop Words from the results", () => {
+  expect(removeStopWordsFromArray(["in"], "a in a in a in")).toEqual([
+    { name: "a", total: 3 }
+  ]);
+});
