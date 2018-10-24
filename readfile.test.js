@@ -10,3 +10,13 @@ test("should exist as a function", () => {
   expect(removeStopWordsFromArray).toBeDefined();
   expect(removeStopWordsFromArray).toBeFunction();
 });
+
+test("should throw an error if either parameters are not arrays", () => {
+  expect(() => removeStopWordsFromArray(null, null)).toThrow(
+    `removeStopWordsFromArray expected array for unwantedWordsArray and string for data, received null for unwantedWordsArray and null for data.`
+  );
+});
+
+test("should return an empty array given an empty string and object", () => {
+  expect(removeStopWordsFromArray([], "")).toEqual([]);
+});
