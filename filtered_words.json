@@ -1,6 +1,402 @@
 [
   {
-    "name": "a",
-    "total": 3
+    "name": "whale",
+    "total": 920
+  },
+  {
+    "name": "ahab",
+    "total": 403
+  },
+  {
+    "name": "ye",
+    "total": 379
+  },
+  {
+    "name": "ship",
+    "total": 369
+  },
+  {
+    "name": "sea",
+    "total": 365
+  },
+  {
+    "name": "time",
+    "total": 319
+  },
+  {
+    "name": "chapter",
+    "total": 308
+  },
+  {
+    "name": "captain",
+    "total": 280
+  },
+  {
+    "name": "whales",
+    "total": 263
+  },
+  {
+    "name": "head",
+    "total": 259
+  },
+  {
+    "name": "little",
+    "total": 248
+  },
+  {
+    "name": "white",
+    "total": 248
+  },
+  {
+    "name": "thou",
+    "total": 242
+  },
+  {
+    "name": "round",
+    "total": 242
+  },
+  {
+    "name": "boat",
+    "total": 241
+  },
+  {
+    "name": "sperm",
+    "total": 239
+  },
+  {
+    "name": "stubb",
+    "total": 217
+  },
+  {
+    "name": "own",
+    "total": 204
+  },
+  {
+    "name": "hand",
+    "total": 193
+  },
+  {
+    "name": "queequeg",
+    "total": 192
+  },
+  {
+    "name": "water",
+    "total": 161
+  },
+  {
+    "name": "starbuck",
+    "total": 158
+  },
+  {
+    "name": "look",
+    "total": 158
+  },
+  {
+    "name": "seen",
+    "total": 158
+  },
+  {
+    "name": "day",
+    "total": 158
+  },
+  {
+    "name": "deck",
+    "total": 155
+  },
+  {
+    "name": "eyes",
+    "total": 153
+  },
+  {
+    "name": "sort",
+    "total": 152
+  },
+  {
+    "name": "nor",
+    "total": 151
+  },
+  {
+    "name": "cried",
+    "total": 148
+  },
+  {
+    "name": "world",
+    "total": 144
+  },
+  {
+    "name": "boats",
+    "total": 136
+  },
+  {
+    "name": "air",
+    "total": 135
+  },
+  {
+    "name": "life",
+    "total": 135
+  },
+  {
+    "name": "crew",
+    "total": 132
+  },
+  {
+    "name": "whale’s",
+    "total": 128
+  },
+  {
+    "name": "night",
+    "total": 128
+  },
+  {
+    "name": "soon",
+    "total": 126
+  },
+  {
+    "name": "tell",
+    "total": 125
+  },
+  {
+    "name": "feet",
+    "total": 125
+  },
+  {
+    "name": "pequod",
+    "total": 123
+  },
+  {
+    "name": "till",
+    "total": 120
+  },
+  {
+    "name": "found",
+    "total": 118
+  },
+  {
+    "name": "thee",
+    "total": 116
+  },
+  {
+    "name": "hands",
+    "total": 115
+  },
+  {
+    "name": "towards",
+    "total": 115
+  },
+  {
+    "name": "line",
+    "total": 114
+  },
+  {
+    "name": "whaling",
+    "total": 112
+  },
+  {
+    "name": "called",
+    "total": 112
+  },
+  {
+    "name": "thy",
+    "total": 111
+  },
+  {
+    "name": "god",
+    "total": 110
+  },
+  {
+    "name": "times",
+    "total": 110
+  },
+  {
+    "name": "oh",
+    "total": 108
+  },
+  {
+    "name": "body",
+    "total": 106
+  },
+  {
+    "name": "poor",
+    "total": 105
+  },
+  {
+    "name": "don’t",
+    "total": 105
+  },
+  {
+    "name": "heard",
+    "total": 103
+  },
+  {
+    "name": "sight",
+    "total": 102
+  },
+  {
+    "name": "sir",
+    "total": 101
+  },
+  {
+    "name": "moment",
+    "total": 99
+  },
+  {
+    "name": "voyage",
+    "total": 97
+  },
+  {
+    "name": "fish",
+    "total": 96
+  },
+  {
+    "name": "strange",
+    "total": 96
+  },
+  {
+    "name": "hold",
+    "total": 92
+  },
+  {
+    "name": "stood",
+    "total": 89
+  },
+  {
+    "name": "“i",
+    "total": 89
+  },
+  {
+    "name": "nantucket",
+    "total": 88
+  },
+  {
+    "name": "indeed",
+    "total": 87
+  },
+  {
+    "name": "half",
+    "total": 87
+  },
+  {
+    "name": "black",
+    "total": 87
+  },
+  {
+    "name": "sometimes",
+    "total": 86
+  },
+  {
+    "name": "project",
+    "total": 86
+  },
+  {
+    "name": "flask",
+    "total": 86
+  },
+  {
+    "name": "dead",
+    "total": 85
+  },
+  {
+    "name": "seas",
+    "total": 85
+  },
+  {
+    "name": "am",
+    "total": 85
+  },
+  {
+    "name": "leviathan",
+    "total": 85
+  },
+  {
+    "name": "it’s",
+    "total": 83
+  },
+  {
+    "name": "moby",
+    "total": 83
+  },
+  {
+    "name": "aye",
+    "total": 83
+  },
+  {
+    "name": "stand",
+    "total": 83
+  },
+  {
+    "name": "set",
+    "total": 83
+  },
+  {
+    "name": "true",
+    "total": 83
+  },
+  {
+    "name": "leg",
+    "total": 83
+  },
+  {
+    "name": "sun",
+    "total": 82
+  },
+  {
+    "name": "standing",
+    "total": 82
+  },
+  {
+    "name": "matter",
+    "total": 82
+  },
+  {
+    "name": "wild",
+    "total": 82
+  },
+  {
+    "name": "he’s",
+    "total": 82
+  },
+  {
+    "name": "heart",
+    "total": 81
+  },
+  {
+    "name": "eye",
+    "total": 78
+  },
+  {
+    "name": "days",
+    "total": 78
+  },
+  {
+    "name": "sail",
+    "total": 78
+  },
+  {
+    "name": "oil",
+    "total": 77
+  },
+  {
+    "name": "ship’s",
+    "total": 77
+  },
+  {
+    "name": "length",
+    "total": 77
+  },
+  {
+    "name": "hard",
+    "total": 77
+  },
+  {
+    "name": "soul",
+    "total": 77
+  },
+  {
+    "name": "ere",
+    "total": 77
+  },
+  {
+    "name": "beneath",
+    "total": 76
   }
 ]
