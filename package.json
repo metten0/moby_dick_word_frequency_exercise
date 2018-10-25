@@ -1,5 +1,5 @@
 {
-  "name": "moby_dick_word_frequency_exercise",
+  "name": "Metten_MobyDick_Project",
   "version": "1.0.0",
   "scripts": {
     "test": "jest"
@@ -8,11 +8,13 @@
     "setupTestFrameworkScriptFile": "./testSetup.js"
   },
   "main": "index.js",
-  "repository": "https://github.com/metten0/moby_dick_word_frequency_exercise.git",
-  "author": "Jason Metten <metten0@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "jest": "^23.6.0",
     "jest-extended": "^0.11.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4"
   }
 }

@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <!-- Ionic icons -->
+  <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+
+  <title>Word Frequency in Moby Dick</title>
+</head>
+
+<body>
+
+  <!-- N A V B A R -->
+  <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon ion-md-menu"></span>
+    </button>
+    <img src="images/logo.png" class="img-fluid nav-logo-mobile" alt="Moby Dickery Logo">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="container">
+        <img src="images/logo.png" class="img-fluid nav-logo-desktop" alt="Moby Dickery Logo">
+        <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="index.html">Home
+              <i class="icon ion-ios-arrow-forward icon-mobile"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#about">About the Novel
+              <i class="icon ion-ios-arrow-forward icon-mobile"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#word_frequency">Word Frequency
+              <i class="icon ion-ios-arrow-forward icon-mobile"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#weight_converter">Whale Weight Converter
+              <i class="icon ion-ios-arrow-forward icon-mobile"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- E N D  N A V B A R -->
+
+  <!-- A B O U T-->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+          <img src="images/humpback.png" class="img-fluid" alt="Demo image">
+        </div>
+        <div class="col-md-7 content-box about-content">
+          <span>Herman Mevlille Knows Whaling</span>
+          <h1>At least, I think he does
+            <b>To be honest, it's been a few decades since I have read the book</b>
+          </h1>
+          <p>Boost your knowledge about the hottest whaling novel to hit the shelves since 1851!</p>
+          <a href="https://en.wikipedia.org/wiki/Moby-Dick" class="btn btn-regular">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- E N D  A B O U T-->
+
+  <!-- W O R D F R E Q U E N C Y-->
+  <section id="word_frequency">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="content-box">
+            <span>Frequently Occurring Words</span>
+            <h2>206,052 Words</h2>
+            <p>Of the 206,052 words in
+              <em>Moby Dick
+                <</em>, which ones occur most often? This project seeks to answer that question by using a series of Javascript
+                  functions to find Melville's most popular words.</p>
+            <br />
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Word Frequency in Moby Dick</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p> The 100 most frequently used words in Moby Dick are:
+                      <script>
+                        (function () {
+                          $.getJSON("http://localhost:5000/")
+                            .done(function (filtered_words_array) {
+                              $.each(filtered_words_array, function (i, item) {
+                                $("#modal-body > p").text(item);
+                              });
+                            });
+                        });
+                      </script>
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <img src="images/Melville.png" class="img-fluid" alt="Melville">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- E N D  W O R D F R E Q U E N C Y-->
+
+  <!-- W E I G H T C O N V E R T E R  -->
+  <section id="weight_converter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+          <p>Did you finally bring in the big one, Captain Ahab? Use this handy converter to tell friends across the globe just
+            how big it was!</p>
+          <form>
+            <div class="form-group">
+              <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+            </div>
+          </form>
+          <div id="output">
+            <div class="card card-primary mb-2">
+              <div class="card-block">
+                <h4>Grams:</h4>
+                <div id="gramsOutput"></div>
+              </div>
+            </div>
+
+            <div class="card card-success mb-2">
+              <div class="card-block">
+                <h4>Kilograms:</h4>
+                <div id="kgOutput"></div>
+              </div>
+            </div>
+
+            <div class="card card-danger mb-2">
+              <div class="card-block">
+                <h4>Ounces:</h4>
+                <div id="ozOutput"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- E N D  W E I G H T C O N V E R T E R  -->
+
+  <!-- C A L L  T O  A C T I O N -->
+  <section id="call-to-action">
+    <div class="container text-center">
+      <h2>Increase your knowledge of 19th century whaling now!</h2>
+      <div class="title-block">
+        <p>Learn how general harpoonery can win friends, influence people, and help a series of long-dead people overcome adversity.
+          I think. Again, I haven't read it in a long while.</p>
+        <a href="https://www.gutenberg.org/files/2701/2701-h/2701-h.htm" class="btn btn-regular">Read for Free</a>
+      </div>
+    </div>
+  </section>
+  <!-- E N D  C A L L  T O  A C T I O N -->
+
+  <!--  F O O T E R  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Free Books</h5>
+          <ul>
+            <li>
+              <a href="https://www.gutenberg.org/ebooks/58155">The Bar-20 Three</a>
+            </li>
+            <li>
+              <a href="https://www.gutenberg.org/ebooks/58154">La femme assise</a>
+            </li>
+            <li>
+              <a href="https://www.gutenberg.org/ebooks/58153">The Cambrian Directory</a>
+            </li>
+            <li>
+              <a href="https://www.gutenberg.org/ebooks/58150">The Princess Sophia</a>
+            </li>
+            <li>
+              <a href="https://www.gutenberg.org/ebooks/58152">Essay on the Classification of the Insane </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Main Tools</h5>
+          <ul>
+            <li>
+              <a href="#">Software Development</a>
+            </li>
+            <li>
+              <a href="#">Quality Engineering</a>
+            </li>
+            <li>
+              <a href="#">DevOps</a>
+            </li>
+            <li>
+              <a href="#">UI/UX</a>
+            </li>
+            <li>
+              <a href="#">Scrum Master/Project Manager</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Blog</h5>
+          <ul>
+            <li>
+              <a href="https://www.sourceallies.com/2018/10/building-a-mobile-app-using-john-deeres-iot-apis/">Building a Mobile App using John Deere's IoT APIs</a>
+            </li>
+            <li>
+              <a href="https://www.sourceallies.com/2018/09/breathing-new-life-into-an-old-laptop-with-rancheros/">Breathing New Life into an Old Laptop with RancherOS</a>
+            </li>
+            <li>
+              <a href="https://www.sourceallies.com/2018/08/node-reference-conclusion/">Node Reference - Conclusion</a>
+            </li>
+            <li>
+              <a href="https://www.sourceallies.com/2018/08/node-reference-change-events/">Node Reference - Change Events</a>
+            </li>
+            <li>
+              <a href="https://www.sourceallies.com/2018/07/node-reference-delete/">Node Reference - Delete</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Company</h5>
+          <p>Source Allies is dedicated to helping our clients grow and become more productive through creative and open technology
+            solutions.
+          </p>
+          <p>
+            <a href="https://www.sourceallies.com/contact-us/" class="external-links">Contact Source Allies</a>
+          </p>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <a href="#">
+            <i class="icon ion-logo-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="icon ion-logo-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="icon ion-logo-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="icon ion-logo-youtube"></i>
+          </a>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <small>2018 &copy; All rights reserved. Made by
+            <a href="https://www.linkedin.com/in/jmetten/" target="blank" class="external-links">metten</a>
+          </small>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--  E N D  F O O T E R  -->
+
+
+
+
+  <script>document.getElementById("output").style.visibility = "hidden";
+    document.getElementById("lbsInput").addEventListener("input", function (e) {
+      document.getElementById("output").style.visibility = "visible";
+      let lbs = e.target.value;
+      document.getElementById("gramsOutput").innerHTML = lbs / 0.0022046;
+      document.getElementById("kgOutput").innerHTML = lbs / 2.2046;
+      document.getElementById("ozOutput").innerHTML = lbs * 16;
+    });</script>
+  <!-- External JavaScripts -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="./readfile.js"></script>
+</body>
+
+</html>
