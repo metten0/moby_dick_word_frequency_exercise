@@ -5,12 +5,12 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <!-- Custom Css -->
-  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/style.css" type="text/css" />
   <!-- Ionic icons -->
   <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
   <!-- Google Fonts -->
@@ -25,10 +25,10 @@
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon ion-md-menu"></span>
     </button>
-    <img src="images/logo.png" class="img-fluid nav-logo-mobile" alt="Moby Dickery Logo">
+    <img src="assets/images/logo.png" class="img-fluid nav-logo-mobile" alt="Moby Dickery Logo">
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <div class="container">
-        <img src="images/logo.png" class="img-fluid nav-logo-desktop" alt="Moby Dickery Logo">
+        <img src="assets/images/logo.png" class="img-fluid nav-logo-desktop" alt="Moby Dickery Logo">
         <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
           <li class="nav-item nav-custom-link">
             <a class="nav-link" href="index.html">Home
@@ -60,7 +60,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-          <img src="images/humpback.png" class="img-fluid" alt="Demo image">
+          <img src="assets/images/humpback.png" class="img-fluid" alt="Demo image">
         </div>
         <div class="col-md-7 content-box about-content">
           <span>Herman Mevlille Knows Whaling</span>
@@ -106,7 +106,7 @@
                       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                       <script>
                         (function () {
-                          $.getJSON("http://localhost:5000/")
+                          $.getJSON("http://localhost:5000/api/words")
                             .done(function (data) {
                               $.each(data, (i, item) => {
                                 let div = document.createElement("div");
@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="col-md-7">
-          <img src="images/Melville.png" class="img-fluid" alt="Melville">
+          <img src="assets/images/Melville.png" class="img-fluid" alt="Melville">
         </div>
       </div>
     </div>

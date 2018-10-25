@@ -2,12 +2,14 @@
   "name": "moby_dick_word_frequency_exercise",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "server": "nodemon server.js"
   },
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "jest": "^23.6.0",
+    "nodemon": "^1.18.4",
     "jest-extended": "^0.11.0"
   },
   "dependencies": {
