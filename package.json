@@ -1,11 +1,8 @@
 {
-  "name": "Metten_MobyDick_Project",
+  "name": "moby_dick_word_frequency_exercise",
   "version": "1.0.0",
   "scripts": {
     "test": "jest"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "./testSetup.js"
   },
   "main": "index.js",
   "license": "MIT",
