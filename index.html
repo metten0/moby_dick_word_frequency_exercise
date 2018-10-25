@@ -98,7 +98,7 @@
             <br />
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-              Launch demo modal
+              100 Frequent Words
             </button>
 
             <!-- Modal -->
@@ -115,12 +115,9 @@
                     <p> The 100 most frequently used words in Moby Dick are:
                       <script>
                         (function () {
-                          var mobyAPI = "http://localhost:5000/"
-                          $.getJSON(mobyAPI, {
-                            format: "json"
-                          })
-                            .done(function (filtered_words) {
-                              $.each(filtered_words.items, function (i, item) {
+                          $.getJSON("http://localhost:5000/")
+                            .done(function (filtered_words_array) {
+                              $.each(filtered_words_array, function (i, item) {
                                 $("#modal-body > p").text(item);
                               });
                             });
@@ -241,7 +238,6 @@
               <a href="#">Scrum Master/Project Manager</a>
             </li>
           </ul>
-
         </div>
         <div class="col-md-3">
           <h5>Blog</h5>
