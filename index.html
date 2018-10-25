@@ -106,7 +106,7 @@
                       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                       <script>
                         (function () {
-                          $.getJSON("http://localhost:5000/api/words")
+                          $.getJSON("/api/words")
                             .done(function (data) {
                               $.each(data, (i, item) => {
                                 let div = document.createElement("div");
