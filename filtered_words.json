@@ -1,103 +1,115 @@
 [
   {
     "name": "whale",
-    "total": 923
+    "total": 1053
   },
   {
     "name": "ahab",
-    "total": 403
-  },
-  {
-    "name": "ye",
-    "total": 382
+    "total": 479
   },
   {
     "name": "ship",
-    "total": 371
+    "total": 449
+  },
+  {
+    "name": "ye",
+    "total": 394
   },
   {
     "name": "sea",
-    "total": 365
+    "total": 366
   },
   {
     "name": "time",
     "total": 320
   },
   {
+    "name": "captain",
+    "total": 313
+  },
+  {
     "name": "chapter",
     "total": 308
   },
   {
-    "name": "captain",
-    "total": 292
+    "name": "boat",
+    "total": 279
   },
   {
     "name": "whales",
     "total": 264
   },
   {
-    "name": "head",
-    "total": 260
-  },
-  {
     "name": "thou",
-    "total": 260
+    "total": 262
   },
   {
-    "name": "white",
-    "total": 248
+    "name": "head",
+    "total": 262
   },
   {
     "name": "little",
     "total": 248
   },
   {
+    "name": "white",
+    "total": 248
+  },
+  {
+    "name": "stubb",
+    "total": 245
+  },
+  {
     "name": "round",
     "total": 242
   },
   {
-    "name": "boat",
-    "total": 241
-  },
-  {
     "name": "sperm",
-    "total": 239
+    "total": 240
   },
   {
-    "name": "stubb",
-    "total": 217
+    "name": "queequeg",
+    "total": 225
   },
   {
     "name": "own",
     "total": 204
   },
   {
-    "name": "queequeg",
-    "total": 198
+    "name": "hand",
+    "total": 196
   },
   {
-    "name": "hand",
-    "total": 193
+    "name": "starbuck",
+    "total": 180
   },
   {
     "name": "look",
     "total": 172
   },
   {
+    "name": "pequod",
+    "total": 172
+  },
+  {
+    "name": "day",
+    "total": 161
+  },
+  {
     "name": "water",
     "total": 161
   },
   {
-    "name": "starbuck",
-    "total": 160
+    "name": "world",
+    "total": 161
   },
   {
     "name": "seen",
     "total": 158
   },
   {
-    "name": "day",
-    "total": 158
+    "name": "nor",
+    "total": 156
   },
   {
     "name": "deck",
@@ -112,27 +124,23 @@
     "total": 152
   },
   {
-    "name": "nor",
-    "total": 151
-  },
-  {
     "name": "cried",
     "total": 148
   },
   {
-    "name": "world",
-    "total": 144
+    "name": "life",
+    "total": 140
   },
   {
     "name": "boats",
-    "total": 136
+    "total": 139
   },
   {
-    "name": "air",
+    "name": "crew",
     "total": 135
   },
   {
-    "name": "life",
+    "name": "air",
     "total": 135
   },
   {
@@ -140,16 +148,16 @@
     "total": 134
   },
   {
-    "name": "crew",
+    "name": "night",
     "total": 132
   },
   {
-    "name": "night",
-    "total": 128
+    "name": "god",
+    "total": 131
   },
   {
-    "name": "whale’s",
-    "total": 128
+    "name": "don",
+    "total": 130
   },
   {
     "name": "soon",
@@ -162,10 +170,6 @@
   {
     "name": "feet",
     "total": 125
-  },
-  {
-    "name": "pequod",
-    "total": 123
   },
   {
     "name": "aye",
@@ -188,23 +192,19 @@
     "total": 116
   },
   {
-    "name": "line",
-    "total": 115
-  },
-  {
-    "name": "god",
-    "total": 115
-  },
-  {
     "name": "towards",
     "total": 115
   },
   {
-    "name": "whaling",
-    "total": 113
+    "name": "line",
+    "total": 115
   },
   {
     "name": "thy",
+    "total": 113
+  },
+  {
+    "name": "whaling",
     "total": 113
   },
   {
@@ -216,7 +216,7 @@
     "total": 110
   },
   {
-    "name": "don’t",
+    "name": "body",
     "total": 109
   },
   {
@@ -224,15 +224,15 @@
     "total": 107
   },
   {
-    "name": "body",
-    "total": 106
+    "name": "sir",
+    "total": 105
   },
   {
     "name": "heard",
     "total": 103
   },
   {
-    "name": "sir",
+    "name": "moment",
     "total": 103
   },
   {
@@ -240,27 +240,23 @@
     "total": 102
   },
   {
-    "name": "moment",
-    "total": 99
+    "name": "fish",
+    "total": 100
   },
   {
     "name": "voyage",
     "total": 97
   },
   {
-    "name": "fish",
-    "total": 96
-  },
-  {
     "name": "strange",
     "total": 96
   },
   {
-    "name": "he’s",
-    "total": 95
+    "name": "hold",
+    "total": 94
   },
   {
-    "name": "hold",
+    "name": "flask",
     "total": 94
   },
   {
@@ -268,11 +264,11 @@
     "total": 91
   },
   {
-    "name": "stand",
+    "name": "stood",
     "total": 90
   },
   {
-    "name": "stood",
+    "name": "leviathan",
     "total": 90
   },
   {
@@ -280,7 +276,15 @@
     "total": 90
   },
   {
-    "name": "it’s",
+    "name": "stand",
+    "total": 90
+  },
+  {
+    "name": "black",
+    "total": 88
+  },
+  {
+    "name": "sun",
     "total": 88
   },
   {
@@ -292,24 +296,12 @@
     "total": 87
   },
   {
-    "name": "indeed",
-    "total": 87
-  },
-  {
-    "name": "black",
-    "total": 87
-  },
-  {
     "name": "am",
     "total": 87
   },
   {
-    "name": "leviathan",
-    "total": 86
-  },
-  {
-    "name": "flask",
-    "total": 86
+    "name": "indeed",
+    "total": 87
   },
   {
     "name": "dead",
@@ -317,14 +309,26 @@
   },
   {
     "name": "seas",
-    "total": 85
+    "total": 86
+  },
+  {
+    "name": "days",
+    "total": 84
+  },
+  {
+    "name": "leg",
+    "total": 84
   },
   {
     "name": "moby",
     "total": 84
   },
   {
-    "name": "leg",
+    "name": "heart",
+    "total": 83
+  },
+  {
+    "name": "matter",
     "total": 83
   },
   {
@@ -336,7 +340,7 @@
     "total": 83
   },
   {
-    "name": "matter",
+    "name": "wild",
     "total": 82
   },
   {
@@ -344,31 +348,23 @@
     "total": 82
   },
   {
-    "name": "heart",
-    "total": 82
+    "name": "jonah",
+    "total": 80
   },
   {
-    "name": "wild",
-    "total": 82
-  },
-  {
-    "name": "sun",
-    "total": 82
-  },
-  {
-    "name": "sail",
-    "total": 79
+    "name": "soul",
+    "total": 80
   },
   {
     "name": "hard",
     "total": 79
   },
   {
-    "name": "days",
-    "total": 78
+    "name": "sail",
+    "total": 79
   },
   {
-    "name": "eye",
+    "name": "sailor",
     "total": 78
   },
   {
@@ -376,7 +372,15 @@
     "total": 78
   },
   {
-    "name": "soul",
+    "name": "eye",
+    "total": 78
+  },
+  {
+    "name": "arm",
+    "total": 78
+  },
+  {
+    "name": "ships",
     "total": 77
   },
   {
@@ -388,15 +392,11 @@
     "total": 77
   },
   {
-    "name": "ship’s",
-    "total": 77
-  },
-  {
-    "name": "sailor",
+    "name": "harpooneer",
     "total": 76
   },
   {
-    "name": "ahab’s",
+    "name": "instant",
     "total": 76
   }
 ]

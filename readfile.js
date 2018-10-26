@@ -58,10 +58,18 @@ function isString(test) {
 function splitByWords(text) {
   // split string by spaces (including spaces, tabs, and newlines)
   let wordsArray = text.split(/\s+/).map(function(word) {
+    let cleanWord = word;
+    if (word.indexOf("’") > -1) {
+      word = cleanApostrophe(word);
+    }
     return word.replace(/[“.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").toLowerCase();
     //new variable with properly split text, dropped to lowercase
   });
   return wordsArray;
+}
+
+function cleanApostrophe(word) {
+  return word.substring(0, word.indexOf("’"));
 }
 
 function createWordMap(wordsArray) {
