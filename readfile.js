@@ -58,7 +58,7 @@ function isString(test) {
 function splitByWords(text) {
   // split string by spaces (including spaces, tabs, and newlines)
   let wordsArray = text.split(/\s+/).map(function(word) {
-    return word.replace(/[^\w\s]|_/g, "").toLowerCase();
+    return word.replace(/[“.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").toLowerCase();
     //new variable with properly split text, dropped to lowercase
   });
   return wordsArray;
